@@ -1,0 +1,41 @@
+{
+  "title": "RC VI Summary of legal requirements",
+  "legal_requirements": [
+    {
+      "key": "Child Safety Policies",
+      "value": "Programs must incorporate written safety policies to ensure child protection, including emergency procedures and regular safety audits."
+    },
+    {
+      "key": "Staff Qualifications",
+      "value": "All educators and caregivers must meet state licensing standards for qualifications, including training in first aid and child development."
+    },
+    {
+      "key": "Mandatory Reporting",
+      "value": "Staff are required to report suspected child abuse or neglect as mandated by state law."
+    },
+    {
+      "key": "Program Licensing",
+      "value": "Organizations must hold a valid license specific to early childhood education programs and comply with periodic inspections."
+    },
+    {
+      "key": "Child-to-Staff Ratios",
+      "value": "Programs must adhere to legally defined ratios to ensure adequate supervision based on children's age groups."
+    },
+    {
+      "key": "Health and Nutritional Standards",
+      "value": "Meals and snacks must comply with state nutritional guidelines, and health screenings should be conducted regularly."
+    },
+    {
+      "key": "Physical Facilities Requirements",
+      "value": "Buildings and classrooms must meet health, safety, and zoning requirements, including accessibility standards."
+    },
+    {
+      "key": "Parental Consent and Communication",
+      "value": "Written parental consent is required for field trips, photography, and emergency medical treatment. Regular communication with families about program updates is mandatory."
+    },
+    {
+      "key": "Record-Keeping",
+      "value": "Programs must maintain up-to-date records on children, staff, and operational policies as per state regulations."
+    }
+  ]
+}

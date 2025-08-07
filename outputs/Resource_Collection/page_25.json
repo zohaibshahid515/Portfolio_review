@@ -1,0 +1,29 @@
+{
+  "title": "RC VI Early childhood association (national, regional, state or local)",
+  "associations": [
+    {
+      "name": "National Association for the Education of Young Children (NAEYC)",
+      "role": "Advocate for quality early childhood education",
+      "level": "National",
+      "details": "Focuses on professional development, accreditation, and resources for educators."
+    },
+    {
+      "name": "Southern Early Childhood Association (SECA)",
+      "role": "Regional support for early childhood educators",
+      "level": "Regional",
+      "details": "Provides conferences, publications, and professional networks across southern states."
+    },
+    {
+      "name": "Texas Association for the Education of Young Children (TXAEYC)",
+      "role": "Support for educators and programs",
+      "level": "State",
+      "details": "Coordinates professional development events and advocates for early childhood policy in Texas."
+    },
+    {
+      "name": "Austin Early Childhood Alliance",
+      "role": "Community collaboration",
+      "level": "Local",
+      "details": "Supports local educators, families, and programs through resources and networking."
+    }
+  ]
+}

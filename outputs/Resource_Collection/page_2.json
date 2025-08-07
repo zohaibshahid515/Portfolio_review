@@ -1,0 +1,111 @@
+{
+  "title": "RC V record keeping forms",
+  "candidate_name": "NOT FOUND",
+  "record_entries": [
+    {
+      "field_name": "Child's Name",
+      "field_value": "Last, First"
+    },
+    {
+      "field_name": "Birth Date",
+      "field_value": ""
+    },
+    {
+      "field_name": "Enrollment Date",
+      "field_value": ""
+    },
+    {
+      "field_name": "Hrs. & Days Of Expected Attendance",
+      "field_value": ""
+    },
+    {
+      "field_name": "Child's Home Address",
+      "field_value": "City, State Zip Code, Telephone"
+    },
+    {
+      "field_name": "Mother's Name",
+      "field_value": "Last, First"
+    },
+    {
+      "field_name": "Street/Apt. #",
+      "field_value": ""
+    },
+    {
+      "field_name": "Mother's Employer or School",
+      "field_value": ""
+    },
+    {
+      "field_name": "Business Address",
+      "field_value": "Street, City, State Zip Code"
+    },
+    {
+      "field_name": "Business Telephone",
+      "field_value": ""
+    },
+    {
+      "field_name": "Hrs. of Work",
+      "field_value": ""
+    },
+    {
+      "field_name": "Days Off",
+      "field_value": ""
+    },
+    {
+      "field_name": "Father's Name",
+      "field_value": "Last, First"
+    },
+    {
+      "field_name": "Father's Employer or School",
+      "field_value": ""
+    },
+    {
+      "field_name": "Business Address",
+      "field_value": "Street, City, State Zip Code"
+    },
+    {
+      "field_name": "Business Telephone",
+      "field_value": ""
+    },
+    {
+      "field_name": "Hrs. of Work",
+      "field_value": ""
+    },
+    {
+      "field_name": "Days off",
+      "field_value": ""
+    },
+    {
+      "field_name": "Name of Person Other than Parents Authorized to Pick up Child",
+      "field_value": "Last, First, Relationship to Child"
+    },
+    {
+      "field_name": "Address",
+      "field_value": "Street/Apt. #, City, State Zip Code, Telephone"
+    },
+    {
+      "field_name": "When parents cannot be reached, list at least one person who may be contacted to pick up the child in an emergency: 1. Name",
+      "field_value": "Telephone, Address Last, First, Street/Apt. #, City, State Zip Code"
+    },
+    {
+      "field_name": "2. Name",
+      "field_value": "Telephone, Address Last, First, Street/Apt. #, City, State Zip Code"
+    },
+    {
+      "field_name": "3. Name",
+      "field_value": "Telephone, Address Last, First, Surecl/Apt #, City, State Zip Code"
+    },
+    {
+      "field_name": "Child's Physician or Source of Health Care",
+      "field_value": "Telephone, Address, Street, City, State Zip Code"
+    },
+    {
+      "field_name": "In EMERGENCIES requiring immediate medical attention, your child will be taken to the NEAREST HOSPITAL EMERGENCY ROOM.",
+      "field_value": "Your signature authorizes the responsible person at the child care facility to have your child transported to that hospital."
+    },
+    {
+      "field_name": "UPDATES:",
+      "field_value": "(Initials/Date)"
+    }
+  ],
+  "signature_present": true
+}

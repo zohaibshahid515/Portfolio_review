@@ -1,0 +1,35 @@
+{
+  "title": "RC V 42 month questionnaire (Communication)",
+  "communication_section": [
+    {
+      "question_number": 1,
+      "question_text": "Does your child use at least two-word sentences consistently?",
+      "selected_choice": 2
+    },
+    {
+      "question_number": 2,
+      "question_text": "Can your child follow two-step directions without needing reminders?",
+      "selected_choice": 3
+    },
+    {
+      "question_number": 3,
+      "question_text": "Does your child ask questions using 'who,' 'what,' or 'where'?",
+      "selected_choice": 1
+    },
+    {
+      "question_number": 4,
+      "question_text": "Can your child name common objects like a ball or dog?",
+      "selected_choice": 2
+    },
+    {
+      "question_number": 5,
+      "question_text": "Does your child attempt to repeat words or phrases after hearing them?",
+      "selected_choice": 3
+    },
+    {
+      "question_number": 6,
+      "question_text": "Is your child understandable by people outside the family most of the time?",
+      "selected_choice": 2
+    }
+  ]
+}

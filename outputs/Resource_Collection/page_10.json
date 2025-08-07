@@ -1,0 +1,65 @@
+{
+  "title": "RC V 42 month questionnaire (problem solving and personal social)",
+  "problem_solving_section": {
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Does your child use a fork to stab food and lift it to their mouth?",
+        "selected_choice": "Yes"
+      },
+      {
+        "question_number": 2,
+        "question_text": "Can your child count at least 3 objects correctly?",
+        "selected_choice": "Sometimes"
+      },
+      {
+        "question_number": 3,
+        "question_text": "Does your child complete simple puzzles (e.g., 4-6 pieces)?",
+        "selected_choice": "No"
+      }
+    ]
+  },
+  "personal_social_section": {
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Does your child play and share with other children?",
+        "selected_choice": "Yes"
+      },
+      {
+        "question_number": 2,
+        "question_text": "Does your child comfort someone who is upset?",
+        "selected_choice": "Sometimes"
+      },
+      {
+        "question_number": 3,
+        "question_text": "Does your child follow instructions during group play?",
+        "selected_choice": "No"
+      },
+      {
+        "question_number": 4,
+        "question_text": "Does your child take turns without becoming upset?",
+        "selected_choice": "No"
+      },
+      {
+        "question_number": 5,
+        "question_text": "Can your child dress themselves (excluding buttons and zippers)?",
+        "selected_choice": "Yes"
+      },
+      {
+        "question_number": 6,
+        "question_text": "Does your child ask for help when needed?",
+        "selected_choice": "Sometimes"
+      }
+    ]
+  },
+  "overall_section": {
+    "questions": [
+      {
+        "question_number": 1,
+        "question_text": "Do you have any concerns about your child's development?",
+        "selected_choice": "No"
+      }
+    ]
+  }
+}
