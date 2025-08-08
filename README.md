@@ -39,13 +39,14 @@ Defines matching rules and prompt engineering logic for 7 main document sections
 
 | Section | Purpose |
 |--------|---------|
+| `Divider/Cover Sheets` | 3 key ones implied |
 | `Official_Training_Documentation` | Includes training summaries, education transcripts, certificates |
 | `Family_Questionnaires` | Parent/guardian feedback |
 | `Reflective_Dialogue_Worksheet` | Boxes A & B: Areas of strength and growth |
 | `Reflective_Statements_of_Competence` | Functional Area reflections for goals I–VI |
 | `Resource_Collection` | CDA resource collections (RC I–VI), safety training, lesson plans |
 | `Reflective_Professional_Philosophy_Statement` | Candidate’s early childhood education philosophy |
-| `Unmatched` | For pages not clearly matching any category (based on rules or OCR noise) |
+
 
 ---
 
@@ -60,3 +61,41 @@ flowchart TD
     E --> F[Structured JSON Extraction]
     F --> G[Validation Rules (Optional)]
     G --> H[Final JSON Output per Page]
+
+## 1️⃣ Create & Activate Virtual Environment (Python 3.13.5)
+
+```bash
+# Create virtual environment
+python3.13 -m venv venv
+
+# Activate venv (Windows)
+venv\Scripts\activate
+
+# Activate venv (Mac/Linux)
+source venv/bin/activate
+```
+
+## 2️⃣ Install Dependencies
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+## 3️⃣ Run the Streamlit App
+
+```bash
+streamlit run run_phase_1.py
+```
+
+## 4️⃣ Environment Variables
+Store sensitive keys in a .env file (never commit this to Git):
+
+```bash
+AZURE_API_KEY=your-azure-ai-key
+AZURE_ENDPOINT=your-azure-endpoint
+OPENAI_API_KEY=your-openai-key
+```
+
+## 5️⃣ Stop the App
+Press CTRL+C in the terminal to stop the Streamlit server.
