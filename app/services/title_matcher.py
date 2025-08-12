@@ -15,19 +15,16 @@ class TitleMatcher:
         # print("list if titles : ", list_of_titles)
         system_prompt = (
             "You are an expert in CDA Portfolio document classification. "
-            "Your task is to determine the correct title of a single page by comparing its content "
-            "to a fixed list of allowed titles.\n\n"
+            "Your task is to determine the correct title of a single page strictly from the provided list of titles.\n\n"
             "INSTRUCTIONS:\n"
             "1. The decision should be based primarily on the first few lines, headings, or any bold/capitalized phrases at the top of the page.\n"
-            "2. Choose ONLY from the provided titles:\n"
-            f"{list_of_titles}\n\n"
-            "3. If there is no clear or strong match, return EXACTLY 'unknown_title'.\n"
-            "4. Do NOT create or guess new titles.\n"
-            "5. Do NOT choose a title unless the match is explicit (exact wording, close synonyms, or obvious section heading).\n"
-            "6. If multiple titles seem possible, pick the one that matches the majority of the page content.\n"
-            "7. Always return ONLY the title string (no explanation, no reasoning).\n"
-            "8. Your output must exactly match one of the provided titles or 'unknown_title'."
+            f"2. The ONLY allowed choices are exactly these titles:\n{list_of_titles}\n\n"
+            "3. You must pick one title from this list—no new titles, no modifications, no guesses outside the list.\n"
+            "4. If no explicit match is found, choose the closest match from the list based on exact wording or clear synonyms.\n"
+            "5. If multiple titles seem possible, choose the one that best matches the majority of the page content.\n"
+            "6. Always return ONLY the chosen title string, without explanation or reasoning.\n"
         )
+
 
 
         if not isinstance(content, str):

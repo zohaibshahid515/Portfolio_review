@@ -30,8 +30,7 @@ class PhaseOnePipeline:
         "Reflective_Dialogue_Worksheet",
         "Reflective_Statements_of_Competence",
         "Resource_Collection",
-        "Reflective_Professional_Philosophy_Statement",
-        "Unmatched"
+        "Reflective_Professional_Philosophy_Statement"
     ]
 
     def __init__(self, pdf_path: str, titles_config_path: str):
@@ -84,6 +83,8 @@ class PhaseOnePipeline:
             # Step 1: Title detection
             start_time = time.time()
             title = self.title_matcher.match_title(content)
+            print("in phase_one.py : ")
+            print("title of this page is : ", title)
             end_time = time.time()
             print(f"[LLM Call - Title Matcher] Time taken: {end_time - start_time:.2f} seconds")
 

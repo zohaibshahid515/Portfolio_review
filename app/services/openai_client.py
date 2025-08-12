@@ -2,15 +2,15 @@
 from openai import AzureOpenAI
 import json
 
-from config.setting import OPENAI_API_KEY,OPENAI_ENDPOINT,AZURE_OPENAI_API_VERSION
+from config.setting import AZURE_OPENAI_API_KEY, AZURE_OPENAI_API_VERSION,AZURE_OPENAI_ENDPOINT
 
 
 class OpenAIClient:
     def __init__(self):
         self.client = AzureOpenAI(
-            api_key=OPENAI_API_KEY,
+            api_key=AZURE_OPENAI_API_KEY,
             api_version=AZURE_OPENAI_API_VERSION,
-            azure_endpoint=OPENAI_ENDPOINT
+            azure_endpoint=AZURE_OPENAI_ENDPOINT
         )
 
         # Make sure these names exactly match Azure deployment names

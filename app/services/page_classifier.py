@@ -21,7 +21,6 @@ Your task is to classify a page into EXACTLY ONE of the following six sections:
 - Do NOT add explanations, reasons, or any extra text.
 - If a page contains references to multiple sections, select the section most directly related to the page's **primary purpose**.
 - Do NOT return multiple sections.
-- If no section clearly applies, return `Unmatched`.
 
 ## 🧠 Section Matching Guide (Detailed + "Do NOT" Rules)
 
@@ -58,6 +57,7 @@ Your task is to classify a page into EXACTLY ONE of the following six sections:
 **Classify as this section when:**
 - Title “Reflective Dialogue Worksheet” appears.
 - Contains sections for **identifying strengths and growth areas **.
+- Content has keywords like "Dialogue", "Worksheet", "reflective dialogue worksheet".
 
 **Do NOT classify as this section if:**
 - It’s a summary of family questionnaires (belongs to Family_Questionnaires)  
@@ -113,16 +113,6 @@ Your task is to classify a page into EXACTLY ONE of the following six sections:
 
 ---
 
----
-
-## **Unmatched Section**
-**Classify as Unmatched when:**
-- The page does not clearly fit any of the six defined sections  
-- Examples:
-  - Accident reports  
-  - Miscellaneous notes, forms, or worksheets without clear section indicators  
-  - Administrative pages or unrelated attachments  
-- Use **Unmatched** as a safe fallback if classification confidence is low
 
 
 

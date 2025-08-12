@@ -65,9 +65,5 @@ VALIDATION_RULES = {
         "**The statement must answer the question: 'How do young children learn?'.**",
         "**The statement must answer the question: 'What is the candidate’s role in supporting learning?'.**",
         "**The statement must be no longer than 500 words or 2 pages in length.**"
-    ],
-
-    "Unmatched": [
-        "The pages lying in this sections are not classified in above section it means this page is exceptional case, but look over to content thoroughly and may be some requirement may cover from this section."
     ]
 }
