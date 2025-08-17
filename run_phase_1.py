@@ -15,7 +15,6 @@ ALL_SECTIONS = [
     'Reflective_Statements_of_Competence',
     'Resource_Collection',
     'Divider/Cover Sheets',
-    'Unmatched'
 ]
 
 # Streamlit Page Config

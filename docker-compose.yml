@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: backend
+    env_file:
+      - .env   # optional; Azure portal can override
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    env_file:
+      - .env
+    depends_on:
+      - backend
+    restart: unless-stopped

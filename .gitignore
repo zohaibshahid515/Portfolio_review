@@ -9,3 +9,5 @@ test.py
 
 # Ignore all PDF files
 *.pdf
+
+#ignore all json files
